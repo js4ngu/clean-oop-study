@@ -1,12 +1,10 @@
 #include <iostream>
 
-void change(int& x)
-{
+void change(int& x) {
     x = x + 10;
 }
 
-int main()
-{
+int main() {
     int a = 5;
     int& b = a; // b는 a의 별명이다.
 

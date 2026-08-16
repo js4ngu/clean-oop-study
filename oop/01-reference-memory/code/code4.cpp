@@ -1,7 +1,6 @@
 #include <iostream>
 
-int main()
-{
+int main() {
     int a = 10;
 
     int& ref1 = a;          // ref1는 a의 별명

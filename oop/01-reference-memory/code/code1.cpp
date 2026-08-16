@@ -1,6 +1,6 @@
 #include <iostream>
 
-class person{
+class person {
 public:
     person() : name("홍길동"), age(20) {
         std::cout << age << "살 " << name << "님이 생성되었습니다" << std::endl;
@@ -16,7 +16,7 @@ private:
 
 
 int main(){
-    person* p1 = new person(); // 포인터로 접근 +  힘에 메모리가 할당됨
+    person* p1 = new person(); // 포인터로 접근 +  힘에 메모리 할당됨
     delete p1;
  
     person p2; // 스텍에 직접 객체 생성, 중괄호를 벗어나면 객체는 자동으로 삭제됨
