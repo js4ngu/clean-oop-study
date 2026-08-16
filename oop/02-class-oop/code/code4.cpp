@@ -65,7 +65,7 @@ int main(){
     keyboard.IsCheaperThan(60000);
 
     Product unnamed{30000};  // 명시적 생성
-    Product invalid = 30000;
+    Product invalid = 30000; //USE_EXPLICT을 사용하면 묵시적 형변형이 허용되지 않기에 컴파일 불가한 것이 정상이다
 
     return 0;
 }
